@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_is_Convention_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL( Lead_Source__c, &quot;Convention&quot;),
+    OR(
+        ISBLANK(ConventionName__c)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>ConventionName__c</errorDisplayField>
+    <errorMessage>Convention Name is mandatory when lead source is selected as &quot;Convention&quot;</errorMessage>
+</ValidationRule>

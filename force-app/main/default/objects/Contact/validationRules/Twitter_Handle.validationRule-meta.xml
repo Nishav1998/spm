@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Twitter_Handle</fullName>
+    <active>true</active>
+    <errorConditionFormula>TwitterHandle__c != NULL &amp;&amp; (LEFT(TwitterHandle__c, 1)) != &apos;@&apos;</errorConditionFormula>
+    <errorDisplayField>TwitterHandle__c</errorDisplayField>
+    <errorMessage>User must enter a valid Twitter Handle field that should meet the standards of using @ in the beginning</errorMessage>
+</ValidationRule>

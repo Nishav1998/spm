@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AssociatedTerm1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>In case a term is made up of 2 terms, term 1 will come here, example for Cryptocurrency, Crpto is the Associated term 1</inlineHelpText>
+    <label>Associated Term 1</label>
+    <referenceTo>AssociatedTerm__c</referenceTo>
+    <relationshipLabel>Glossary Terms</relationshipLabel>
+    <relationshipName>Glossary_Terms</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

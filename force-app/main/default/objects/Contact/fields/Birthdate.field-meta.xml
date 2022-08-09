@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Birthdate</fullName>
+    <inlineHelpText>Contact&apos;s Date of birth. Select it from the calendar. Select year first followed by month and date</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

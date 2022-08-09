@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvestmentStructureType__c</fullName>
+    <externalId>false</externalId>
+    <label>Investment Structure Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Venture funds</fullName>
+                <default>false</default>
+                <label>Venture funds</label>
+            </value>
+            <value>
+                <fullName>Fund of Funds</fullName>
+                <default>false</default>
+                <label>Fund of Funds</label>
+            </value>
+            <value>
+                <fullName>Public Equities</fullName>
+                <default>false</default>
+                <label>Public Equities</label>
+            </value>
+            <value>
+                <fullName>Trading Fund</fullName>
+                <default>false</default>
+                <label>Trading Fund</label>
+            </value>
+            <value>
+                <fullName>Venture Capital Investments into AI</fullName>
+                <default>false</default>
+                <label>Venture Capital Investments into AI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

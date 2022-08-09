@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalHeightInInches__c</fullName>
+    <externalId>false</externalId>
+    <formula>(VALUE(TEXT(HeightInFeet__c))*12)+(VALUE(TEXT(Inches__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>What is the contact&apos;s total height in inches. This field automatically updates after calculating the height in feet and + height in inches</inlineHelpText>
+    <label>Total Height (In Inches)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

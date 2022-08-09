@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewsMedia__c</fullName>
+    <description>details of the account is captured from external sources (Media)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>hello testing - need the news media publication URL link from which this information has been derived.</inlineHelpText>
+    <label>News Media</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

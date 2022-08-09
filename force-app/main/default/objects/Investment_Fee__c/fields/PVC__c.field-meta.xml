@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PVC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(PV__c&gt;TAmt__c,((PV__c-TAmt__c)*(FeeS__r.TPShare__c )),NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Present value is greater than Threshold amount((Present Value - Threshold Amount)*Threshold Profit Share)</inlineHelpText>
+    <label>Present Value Coverage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

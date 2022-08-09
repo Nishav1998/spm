@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TalentPool_Person_Account</fullName>
+    <active>false</active>
+    <label>TalentPool(Person Account)</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BlockChain%2FWeb 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commodities Trading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conferences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Currency Trading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubType__c</picklist>
+        <values>
+            <fullName>AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blockchain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund of funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hedge Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magazines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>News papers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private equity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venture capital</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Employee %28Contact Persona%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Founder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

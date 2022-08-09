@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estnetworthsource__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Source of a contact Est. net worth</inlineHelpText>
+    <label>Est. net worth source</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Steel Perlot Employees not part of IR Intel or Talent Teams
+Employee of SP owned company or subsidiary which SP has made an investment into
+LinkedIn Social Medium - Directly from LinkedIn.com
+SP Social Media - Instagram Twitter FaceBook TikTok YouTube Reddit Medium (not LinkedIn or Discord)
+Michelle Ritter/ Steel Perlot Public Relations Team
+Discord Social Media application
+Steel Perlot [Investor Relations]
+LinkedIn Recruiter - person found through LinkedIn Recruiter Enterprise tool</inlineHelpText>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AccountType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>SPMForm</fullName>
+                <default>false</default>
+                <label>SPM Form</label>
+            </value>
+            <value>
+                <fullName>SPEmployee</fullName>
+                <default>false</default>
+                <label>SP Employee</label>
+            </value>
+            <value>
+                <fullName>SteelPerlotExecutive</fullName>
+                <default>false</default>
+                <label>Steel Perlot Executive</label>
+            </value>
+            <value>
+                <fullName>SPIntelTeam</fullName>
+                <default>false</default>
+                <label>SP Intel Team</label>
+            </value>
+            <value>
+                <fullName>SPTalentTeam</fullName>
+                <default>false</default>
+                <label>SPTalentTeam</label>
+            </value>
+            <value>
+                <fullName>SPSubsidiaryEmployee</fullName>
+                <default>false</default>
+                <label>SP Subsidiary Employee</label>
+            </value>
+            <value>
+                <fullName>LinkedIntheSocialMedium</fullName>
+                <default>false</default>
+                <label>LinkedIn the Social Medium</label>
+            </value>
+            <value>
+                <fullName>ZoomInfo</fullName>
+                <default>false</default>
+                <label>Zoom Info</label>
+            </value>
+            <value>
+                <fullName>Convention</fullName>
+                <default>false</default>
+                <label>Convention</label>
+            </value>
+            <value>
+                <fullName>SteelPerlotSocialMedia</fullName>
+                <default>false</default>
+                <label>Steel Perlot Social Media</label>
+            </value>
+            <value>
+                <fullName>MRPR</fullName>
+                <default>false</default>
+                <label>MRPR</label>
+            </value>
+            <value>
+                <fullName>Discord</fullName>
+                <default>false</default>
+                <label>Discord</label>
+            </value>
+            <value>
+                <fullName>SteelPerlotInvestor</fullName>
+                <default>false</default>
+                <label>Steel Perlot Investor</label>
+            </value>
+            <value>
+                <fullName>SPIRTeam</fullName>
+                <default>false</default>
+                <label>SPIR Team</label>
+            </value>
+            <value>
+                <fullName>NewsPublication</fullName>
+                <default>false</default>
+                <label>News Publication</label>
+            </value>
+            <value>
+                <fullName>LinkedInRecruiter</fullName>
+                <default>false</default>
+                <label>LinkedIn Recruiter</label>
+            </value>
+            <value>
+                <fullName>SteelPerlot.comWebsite</fullName>
+                <default>false</default>
+                <label>SteelPerlot.com Website</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>InPersonMeeting</fullName>
+                <default>false</default>
+                <label>In Person Meeting</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SPMForm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SPEmployee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SteelPerlotExecutive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>LinkedIntheSocialMedium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>ZoomInfo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>Convention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SteelPerlotSocialMedia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>MRPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>Discord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <valueName>SteelPerlotInvestor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <valueName>SPIRTeam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <valueName>NewsPublication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <valueName>LinkedInRecruiter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Company</controllingFieldValue>
+            <valueName>SteelPerlot.comWebsite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SPIntelTeam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SPTalentTeam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>SPSubsidiaryEmployee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Individual</controllingFieldValue>
+            <valueName>InPersonMeeting</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

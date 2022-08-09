@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WXIntegration__Wealth_X_Is_Updated_For_Match__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Based on fields which have been defined in match settings for Person accounts it will be decided whether record was modified or not. Wealth_X_AccountTrigger mark this field true in before update trigger and when the update process completes, it will be marked false by Wealth_X_ResetIsUpdatedForMatchFlagBatch.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will auto populate based on Wealth-X Data integration</inlineHelpText>
+    <label>Wealth-X Is Updated For Match</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

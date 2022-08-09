@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Language_is_Others</fullName>
+    <active>true</active>
+    <errorConditionFormula>INCLUDES( Languages_limited_working_proficiency__c , &quot;Others&quot;) || INCLUDES ( Languages_native_or_bilingual_proficien__c , &quot;Others&quot;) &amp;&amp; ISBLANK( Others__c )</errorConditionFormula>
+    <errorDisplayField>Others__c</errorDisplayField>
+    <errorMessage>Please fill in the Details of Other language , if its not there in the existing list.</errorMessage>
+</ValidationRule>

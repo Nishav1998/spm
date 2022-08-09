@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YearsofExperience__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How many years of Work experience does the Lead have. This includes total number of working years</inlineHelpText>
+    <label>Years of Experience</label>
+    <precision>15</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_fields_when_Lead_is_Employee</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Type__c,&quot;Employee&quot; ),
+ISBLANK(&quot;YearsofExperience__c&quot;),
+ISBLANK(&quot;PreviousCompanyName__c&quot;),
+ISBLANK(&quot;Role__c&quot;)
+)</errorConditionFormula>
+    <errorMessage>&apos;Years Of Experience&apos;, &apos;Previous Company Name&apos; and &apos;Role&apos; fields are mandatory when Lead type is &apos;Employee&apos;</errorMessage>
+</ValidationRule>

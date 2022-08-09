@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IR__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Investment Record against which the Fee is calculated</inlineHelpText>
+    <label>Investment Record</label>
+    <referenceTo>InvestmentRecord__c</referenceTo>
+    <relationshipLabel>Investment Fee</relationshipLabel>
+    <relationshipName>Investment_Fee1</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

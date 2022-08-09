@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Cryptocurrencies__c</fullName>
+    <externalId>false</externalId>
+    <label>Top Cryptocurrencies</label>
+    <referenceTo>Top_Cryptocurrencies__c</referenceTo>
+    <relationshipLabel>Associated Top CryptoCurrencies</relationshipLabel>
+    <relationshipName>Associated_Top_CryptoCurrencies</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

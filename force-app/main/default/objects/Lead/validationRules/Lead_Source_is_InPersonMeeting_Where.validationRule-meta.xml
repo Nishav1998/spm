@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_is_InPersonMeeting_Where</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Lead_Source__c, &quot;InPersonMeeting&quot;),
+OR(
+ISBLANK( Where__c )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Where__c</errorDisplayField>
+    <errorMessage>Where field is mandatory when &quot;In Person Meeting&quot;  Lead source is selected.</errorMessage>
+</ValidationRule>

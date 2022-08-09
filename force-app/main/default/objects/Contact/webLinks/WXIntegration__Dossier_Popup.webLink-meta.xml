@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WXIntegration__Dossier_Popup</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>View Live Wealth-X Dossier</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/Wealth_X_DossierDetailGeneric?dossier={!IF(NOT(ISBLANK(Contact.WXIntegration__Wealth_X_Dossier_Id__c)), TEXT(Contact.WXIntegration__Wealth_X_Dossier_Id__c),null)}&amp;SFRecordID={!IF(NOT(ISBLANK(Contact.Id)),Contact.Id,null)}&amp;Name={!IF(NOT(ISBLANK(Contact.Name)),Contact.Name,null)}</url>
+    <width>1000</width>
+</WebLink>

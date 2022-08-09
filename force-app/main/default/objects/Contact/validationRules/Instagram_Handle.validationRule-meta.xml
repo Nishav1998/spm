@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instagram_Handle</fullName>
+    <active>true</active>
+    <description>Verify that the data a user enters in Instagram Handle field should meet the standards of using @ before the user can save the record.</description>
+    <errorConditionFormula>InstagramHandle__c != NULL &amp;&amp; (LEFT(InstagramHandle__c, 1)) != &apos;@&apos;</errorConditionFormula>
+    <errorDisplayField>InstagramHandle__c</errorDisplayField>
+    <errorMessage>User must enter valid Instagram Handle field that should meet the standards of using @ in the beginning</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Circulating_Supply__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the total number of coins or tokens that are actively available for trade and are being used in the market and in general public. Enter the value and the symbol of  cryptocurrency it is trading in. Example : 19038862 BTC</inlineHelpText>
+    <label>Circulating Supply</label>
+    <length>32</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

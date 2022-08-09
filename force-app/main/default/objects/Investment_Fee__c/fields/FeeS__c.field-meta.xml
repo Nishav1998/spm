@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FeeS__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a Lookup field to the Fee Schedule related to this account. Select via Lookup or create one if needed.</inlineHelpText>
+    <label>FeeS</label>
+    <referenceTo>FeeSchedules__c</referenceTo>
+    <relationshipLabel>Investment Fee</relationshipLabel>
+    <relationshipName>Investment_Fee</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentJob__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A current job checkbox is required if the person is currently working at that position</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the current position that is being held by the contact</inlineHelpText>
+    <label>Current Job</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

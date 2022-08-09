@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Description__c</fullName>
+    <description>how this contact is derived and originally input into our system</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Details about how this contact is derived and originally input into our system</inlineHelpText>
+    <label>Source Description</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

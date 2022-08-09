@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessCardPhoto__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the photo of the Business card for this Lead, if available. Upload from your computer.</inlineHelpText>
+    <label>Business Card Photo</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

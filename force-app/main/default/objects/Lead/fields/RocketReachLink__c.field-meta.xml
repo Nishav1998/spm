@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RocketReachLink__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Insert the URL of the Rocket Reach profile of this Lead.</inlineHelpText>
+    <label>RocketReach Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchange_Score__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The aggregator scores exchanges from 0.0 to 10.0 based on traffic, liquidity, trading volumes, and legitimacy of trading volumes reported, with weights attributed to each factor.</inlineHelpText>
+    <label>Exchange Score</label>
+    <precision>17</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

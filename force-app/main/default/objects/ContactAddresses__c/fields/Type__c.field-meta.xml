@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the type or purpose of the Home it is, Select one from the Picklist.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>International Home,</fullName>
+                <default>false</default>
+                <label>International Home,</label>
+            </value>
+            <value>
+                <fullName>Annual Conference Home</fullName>
+                <default>false</default>
+                <label>Annual Conference Home</label>
+            </value>
+            <value>
+                <fullName>Summer Holiday Home</fullName>
+                <default>false</default>
+                <label>Summer Holiday Home</label>
+            </value>
+            <value>
+                <fullName>Christmas Break Home</fullName>
+                <default>false</default>
+                <label>Christmas Break Home</label>
+            </value>
+            <value>
+                <fullName>Dream Home</fullName>
+                <default>false</default>
+                <label>Dream Home</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

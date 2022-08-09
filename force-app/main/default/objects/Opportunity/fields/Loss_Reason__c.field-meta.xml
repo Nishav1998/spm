@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Needs More Money</fullName>
+                <default>false</default>
+                <label>Needs More Money</label>
+            </value>
+            <value>
+                <fullName>Wants More Equity</fullName>
+                <default>false</default>
+                <label>Wants More Equity</label>
+            </value>
+            <value>
+                <fullName>Location Issue</fullName>
+                <default>false</default>
+                <label>Location Issue</label>
+            </value>
+            <value>
+                <fullName>Steel-Perlot No Longer Interested</fullName>
+                <default>false</default>
+                <label>Steel-Perlot No Longer Interested</label>
+            </value>
+            <value>
+                <fullName>Doesn&apos;t Agree with Valuation</fullName>
+                <default>false</default>
+                <label>Doesn&apos;t Agree with Valuation</label>
+            </value>
+            <value>
+                <fullName>Decided on Different Investment</fullName>
+                <default>false</default>
+                <label>Decided on Different Investment</label>
+            </value>
+            <value>
+                <fullName>Due Diligence Problem</fullName>
+                <default>false</default>
+                <label>Due Diligence Problem</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Investment Target</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Target</controllingFieldValue>
+            <controllingFieldValue>Employee Target</controllingFieldValue>
+            <valueName>Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Target</controllingFieldValue>
+            <valueName>Doesn&apos;t Agree with Valuation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Target</controllingFieldValue>
+            <valueName>Decided on Different Investment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Target</controllingFieldValue>
+            <valueName>Due Diligence Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee Target</controllingFieldValue>
+            <valueName>Needs More Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee Target</controllingFieldValue>
+            <valueName>Wants More Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee Target</controllingFieldValue>
+            <valueName>Location Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee Target</controllingFieldValue>
+            <valueName>Steel-Perlot No Longer Interested</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

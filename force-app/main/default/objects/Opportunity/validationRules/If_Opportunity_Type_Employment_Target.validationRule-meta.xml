@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Opportunity_Type_Employment_Target</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISPICKVAL(Type,&quot;Employee&quot;),ISBLANK(&quot;EmploymentTarget__c&quot;) )</errorConditionFormula>
+    <errorMessage>&apos;EmploymentTarget&apos; is mandatory if the &apos;Opportunity Type&apos; is employee</errorMessage>
+</ValidationRule>

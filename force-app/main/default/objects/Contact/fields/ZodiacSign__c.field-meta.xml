@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZodiacSign__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(AND(MONTH(Birthdate) = 3, DAY(Birthdate) &gt; 20),AND(MONTH(Birthdate) = 4, DAY(Birthdate) &lt; 20)), &quot;Aries&quot;,
+IF(OR(AND(MONTH(Birthdate) = 4, DAY(Birthdate) &gt; 19),AND(MONTH(Birthdate) = 5, DAY(Birthdate) &lt; 21)), &quot;Taurus&quot;,
+IF(OR(AND(MONTH(Birthdate) = 5, DAY(Birthdate) &gt; 20),AND(MONTH(Birthdate) = 6, DAY(Birthdate) &lt; 21)), &quot;Gemini&quot;,
+IF(OR(AND(MONTH(Birthdate) = 6, DAY(Birthdate) &gt; 20),AND(MONTH(Birthdate) = 7, DAY(Birthdate) &lt; 23)), &quot;Cancer&quot;,
+IF(OR(AND(MONTH(Birthdate) = 7, DAY(Birthdate) &gt; 22),AND(MONTH(Birthdate) = 8, DAY(Birthdate) &lt; 23)), &quot;Leo&quot;,
+IF(OR(AND(MONTH(Birthdate) = 8, DAY(Birthdate) &gt; 22),AND(MONTH(Birthdate) = 9, DAY(Birthdate) &lt; 23)), &quot;Virgo&quot;,
+IF(OR(AND(MONTH(Birthdate) = 9, DAY(Birthdate) &gt; 22),AND(MONTH(Birthdate) = 10, DAY(Birthdate) &lt; 23)), &quot;Libra&quot;,
+IF(OR(AND(MONTH(Birthdate) = 10, DAY(Birthdate) &gt; 22),AND(MONTH(Birthdate) = 11, DAY(Birthdate) &lt; 21)), &quot;Scorpio&quot;,
+IF(OR(AND(MONTH(Birthdate) = 11, DAY(Birthdate) &gt; 21),AND(MONTH(Birthdate) = 12, DAY(Birthdate) &lt; 22)), &quot;Sagittarius&quot;,
+IF(OR(AND(MONTH(Birthdate) = 12, DAY(Birthdate) &gt; 21),AND(MONTH(Birthdate) = 1, DAY(Birthdate) &lt; 20)), &quot;Capricon&quot;,
+IF(OR(AND(MONTH(Birthdate) = 1, DAY(Birthdate) &gt; 19),AND(MONTH(Birthdate) = 2, DAY(Birthdate) &lt; 19)), &quot;Aquarius&quot;,
+IF(OR(AND(MONTH(Birthdate) = 2, DAY(Birthdate) &gt; 18),AND(MONTH(Birthdate) = 3, DAY(Birthdate) &lt; 21)), &quot;Pisces&quot;,NULL))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>What is the Contact&apos;s Zodiac Sign based on the Contact&apos;s Date of Birth</inlineHelpText>
+    <label>Zodiac Sign</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

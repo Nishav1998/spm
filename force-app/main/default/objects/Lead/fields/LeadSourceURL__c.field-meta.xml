@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSourceURL__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the URL when News Publication, LinkedIn Recruiter, LinkedIn the Social Medium, Zoom Info, Convention Lead sources are selected.</inlineHelpText>
+    <label>Lead Source URL</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

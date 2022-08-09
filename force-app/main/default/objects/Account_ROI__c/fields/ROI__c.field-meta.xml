@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a Lookup field and the ROI will automatically appear from ROI Object</inlineHelpText>
+    <label>ROI</label>
+    <referenceTo>ROI__c</referenceTo>
+    <relationshipLabel>AccountsROI</relationshipLabel>
+    <relationshipName>AccountsROI</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

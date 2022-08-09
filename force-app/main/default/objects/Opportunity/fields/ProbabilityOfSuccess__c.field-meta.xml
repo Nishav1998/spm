@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProbabilityOfSuccess__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ((Probability &gt;= 0.00)&amp;&amp;(Probability &lt;= 0.20),&apos;Very Unlikely to occur&apos;,
+IF ((Probability &gt;= 0.21)&amp;&amp;(Probability &lt;= 0.40),&apos;Unlikely to occur&apos;,
+IF ((Probability &gt;= 0.41)&amp;&amp;(Probability &lt;= 0.60),&apos;May Occur about half of the time&apos;,
+IF ((Probability &gt;= 0.61)&amp;&amp;(Probability &lt;= 0.80),&apos;Likely to occur&apos;, NULL ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Probability Of Success</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

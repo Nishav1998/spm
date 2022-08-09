@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WXIntegration__Wealth_X_Dossier__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF (WXIntegration__Wealth_X_Dossier_Id__c &lt;&gt; 0, 
+HYPERLINK(&quot;/apex/WXIntegration__Wealth_X_SearchedDossier?associateSFID=&quot; &amp; Id &amp; &quot;&amp;associateSFObject=Contact&amp;dossier=&quot; &amp; TEXT(WXIntegration__Wealth_X_Dossier_Id__c), IMAGE(&quot;/servlet/servlet.FileDownload?file=&quot;&amp;WXIntegration__Wealth_X_DossierDocumentId__c, &quot;Dossier&quot;,25, 25)), 
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Wealth-X Dossier</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unaffiliated_Position__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select One or Multiple Values for Unaffiliated Position from the following list.</inlineHelpText>
+    <label>Unaffiliated Position</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actor</fullName>
+                <default>false</default>
+                <label>Actor</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>Advocate</fullName>
+                <default>false</default>
+                <label>Advocate</label>
+            </value>
+            <value>
+                <fullName>Artist</fullName>
+                <default>false</default>
+                <label>Artist</label>
+            </value>
+            <value>
+                <fullName>Athlete</fullName>
+                <default>false</default>
+                <label>Athlete</label>
+            </value>
+            <value>
+                <fullName>Author</fullName>
+                <default>false</default>
+                <label>Author</label>
+            </value>
+            <value>
+                <fullName>Bitcoin Core Engineer</fullName>
+                <default>false</default>
+                <label>Bitcoin Core Engineer</label>
+            </value>
+            <value>
+                <fullName>Bitcoin Developer</fullName>
+                <default>false</default>
+                <label>Bitcoin Developer</label>
+            </value>
+            <value>
+                <fullName>Bitcoin Historian</fullName>
+                <default>false</default>
+                <label>Bitcoin Historian</label>
+            </value>
+            <value>
+                <fullName>Blogger / Twitter Personality</fullName>
+                <default>false</default>
+                <label>Blogger / Twitter Personality</label>
+            </value>
+            <value>
+                <fullName>Celebrity</fullName>
+                <default>false</default>
+                <label>Celebrity</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>CFA</fullName>
+                <default>false</default>
+                <label>CFA</label>
+            </value>
+            <value>
+                <fullName>Comedian</fullName>
+                <default>false</default>
+                <label>Comedian</label>
+            </value>
+            <value>
+                <fullName>Community Leader</fullName>
+                <default>false</default>
+                <label>Community Leader</label>
+            </value>
+            <value>
+                <fullName>Computer scientist</fullName>
+                <default>false</default>
+                <label>Computer scientist</label>
+            </value>
+            <value>
+                <fullName>Creator</fullName>
+                <default>false</default>
+                <label>Creator</label>
+            </value>
+            <value>
+                <fullName>Data Scientist</fullName>
+                <default>false</default>
+                <label>Data Scientist</label>
+            </value>
+            <value>
+                <fullName>Digital Artist</fullName>
+                <default>false</default>
+                <label>Digital Artist</label>
+            </value>
+            <value>
+                <fullName>Economist</fullName>
+                <default>false</default>
+                <label>Economist</label>
+            </value>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Editor</label>
+            </value>
+            <value>
+                <fullName>Educator</fullName>
+                <default>false</default>
+                <label>Educator</label>
+            </value>
+            <value>
+                <fullName>Entrepreneur</fullName>
+                <default>false</default>
+                <label>Entrepreneur</label>
+            </value>
+            <value>
+                <fullName>Filmmaker</fullName>
+                <default>false</default>
+                <label>Filmmaker</label>
+            </value>
+            <value>
+                <fullName>Futurist</fullName>
+                <default>false</default>
+                <label>Futurist</label>
+            </value>
+            <value>
+                <fullName>Host</fullName>
+                <default>false</default>
+                <label>Host</label>
+            </value>
+            <value>
+                <fullName>Inventor</fullName>
+                <default>false</default>
+                <label>Inventor</label>
+            </value>
+            <value>
+                <fullName>Investor (could become account?)</fullName>
+                <default>false</default>
+                <label>Investor (could become account?)</label>
+            </value>
+            <value>
+                <fullName>Marine Corps</fullName>
+                <default>false</default>
+                <label>Marine Corps</label>
+            </value>
+            <value>
+                <fullName>Musician</fullName>
+                <default>false</default>
+                <label>Musician</label>
+            </value>
+            <value>
+                <fullName>Philanthropist</fullName>
+                <default>false</default>
+                <label>Philanthropist</label>
+            </value>
+            <value>
+                <fullName>Podcaster</fullName>
+                <default>false</default>
+                <label>Podcaster</label>
+            </value>
+            <value>
+                <fullName>Political Consultant</fullName>
+                <default>false</default>
+                <label>Political Consultant</label>
+            </value>
+            <value>
+                <fullName>Politician</fullName>
+                <default>false</default>
+                <label>Politician</label>
+            </value>
+            <value>
+                <fullName>Research Scientist</fullName>
+                <default>false</default>
+                <label>Research Scientist</label>
+            </value>
+            <value>
+                <fullName>Scholar</fullName>
+                <default>false</default>
+                <label>Scholar</label>
+            </value>
+            <value>
+                <fullName>TV Host</fullName>
+                <default>false</default>
+                <label>TV Host</label>
+            </value>
+            <value>
+                <fullName>Venture Capitalist</fullName>
+                <default>false</default>
+                <label>Venture Capitalist</label>
+            </value>
+            <value>
+                <fullName>Veteran</fullName>
+                <default>false</default>
+                <label>Veteran</label>
+            </value>
+            <value>
+                <fullName>Writer</fullName>
+                <default>false</default>
+                <label>Writer</label>
+            </value>
+            <value>
+                <fullName>YouTuber</fullName>
+                <default>false</default>
+                <label>YouTuber</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,29 @@
+<template>
+  <lightning-card>
+    <b>{name} </b>
+    <br />
+    <br />
+    <!--<div class=" slds-grid slds-wrap slds-gutters">-->
+    <div class="shadowbox">
+      <div key={img} class="slds-grid slds-gutters">
+        <div class="slds-col">
+          <span>
+            <lightning-layout multiple-rows >
+              
+                <template for:each={imageURLs} for:item="img">
+                <lightning-layout-item size="6" padding="around-small" key={img}>
+                  <img
+                    src={img}
+                    alt="User Image"
+                    style="height:100px; width:150px"
+                  />
+                </lightning-layout-item>
+                </template>
+              
+            </lightning-layout>
+          </span>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>

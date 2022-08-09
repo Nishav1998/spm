@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Political_Affiliation_is_Others</fullName>
+    <active>true</active>
+    <description>For the Political Affiliation field, if the user selects Others as a value and not enters information under &apos;Other Political Affiliation&apos; Field. The record will not get created</description>
+    <errorConditionFormula>ISPICKVAL( PoliticalAffiliation__c , &apos;Other&apos;) &amp;&amp;  ISBLANK( OtherPoliticalAffiliation__c)</errorConditionFormula>
+    <errorMessage>Please fill in the Details of Other Political Affiliation you are connected with.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RolesAndResponsibility__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Roles and Responsibilities related to the above position. Make dot points if possible and elaborate the details.</inlineHelpText>
+    <label>Roles And Responsibility</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

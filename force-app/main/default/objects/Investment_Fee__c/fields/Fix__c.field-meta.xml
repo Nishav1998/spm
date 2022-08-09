@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fix__c</fullName>
+    <description>Using this field for Tech purpose</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(FeeS__r.Fe__r.Ty__c,&apos;F&apos;)
+	,IF(ISPICKVAL( FeeS__r.FTy__c,&apos;FixedAmount&apos;),
+		IF(ISPICKVAL( FeeS__r.Dur__c ,&apos;Yearly&apos;),(FeeS__r.Ffee__c*(VALUE(FeeS__r.Fe__r.Tnr__c)/12 )+PVC__c ),0),
+	IF(ISPICKVAL( FeeS__r.FTy__c,&apos;FixedPerTime&apos;),
+		IF(ISPICKVAL( FeeS__r.Dur__c ,&apos;Monthly&apos;),(FeeS__r.Ffee__c * VALUE(FeeS__r.Fe__r.Tnr__c)+PVC__c ),
+		IF( ISPICKVAL( FeeS__r.Dur__c ,&apos;Quarterly&apos;),(FeeS__r.Ffee__c*(VALUE(FeeS__r.Fe__r.Tnr__c)/3 )+PVC__c ),
+		IF(ISPICKVAL(FeeS__r.Dur__c ,&apos;SemiAnually&apos;),(FeeS__r.Ffee__c*(VALUE(FeeS__r.Fe__r.Tnr__c)/6)+PVC__c ),
+		IF(ISPICKVAL( FeeS__r.Dur__c ,&apos;Yearly&apos;),(FeeS__r.Ffee__c*(VALUE(FeeS__r.Fe__r.Tnr__c)/12 )+PVC__c ),0)))),
+	IF(ISPICKVAL(FeeS__r.FTy__c,&apos;StaggeredTimePeriod&apos;),
+		IF(ISPICKVAL(FeeS__r.Dur__c,&apos;Yearly&apos;),((FeeS__r.SAmt__c+FeeS__r.Ffee__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/12 )+PVC__c), 0),0))),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is a Formula field that will show the Fee for the Fixed Type</inlineHelpText>
+    <label>Fee(Fix)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

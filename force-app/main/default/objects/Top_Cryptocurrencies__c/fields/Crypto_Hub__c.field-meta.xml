@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crypto_Hub__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Crypto Hub</label>
+    <referenceTo>Crypto_Hub__c</referenceTo>
+    <relationshipLabel>Top Cryptocurrencies</relationshipLabel>
+    <relationshipName>Top_Cryptocurrencies</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

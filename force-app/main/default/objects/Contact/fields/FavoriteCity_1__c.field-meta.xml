@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FavoriteCity_1__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Which city is the Contact&apos;s Favorite, Even if the Contact don&apos;t live there, Never Visited there.</inlineHelpText>
+    <label>Favorite City 1</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

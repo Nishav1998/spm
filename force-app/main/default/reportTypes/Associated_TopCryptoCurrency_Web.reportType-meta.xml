@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Associated_Top_Currency__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Associated TopCryptoCurrency(Web)</description>
+    <label>Associated TopCryptoCurrency(Web)</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Top_Cryptocurrencies__c</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Web_3_Video__c</field>
+            <table>Associated_Top_Currency__c</table>
+        </columns>
+        <masterLabel>Associated TopCryptoCurrency(Web)</masterLabel>
+    </sections>
+</ReportType>

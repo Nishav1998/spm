@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Photo__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Upload Contact&apos;s latest photo that is not older than 6 months from now</inlineHelpText>
+    <label>Photo</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

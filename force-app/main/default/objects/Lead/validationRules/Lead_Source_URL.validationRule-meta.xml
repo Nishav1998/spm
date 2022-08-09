@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_URL</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISBLANK(LeadSourceURL__c),((ISPICKVAL(Lead_Source__c,&quot;NewsPublication&quot;) &amp;&amp; ISBLANK(LeadSourceURL__c)) || (ISPICKVAL(Lead_Source__c,&quot;LinkedInRecruiter&quot;) &amp;&amp; ISBLANK(LeadSourceURL__c)) || (ISPICKVAL(Lead_Source__c,&quot;LinkedIntheSocialMedium&quot;)  &amp;&amp; ISBLANK(LeadSourceURL__c)) || (ISPICKVAL(Lead_Source__c,&quot;ZoomInfo&quot;) &amp;&amp; ISBLANK(LeadSourceURL__c)) || (ISPICKVAL(Lead_Source__c,&quot;Convention&quot;))))</errorConditionFormula>
+    <errorDisplayField>LeadSourceURL__c</errorDisplayField>
+    <errorMessage>Lead Source URL is mandatory when News Publication, LinkedIn Recruiter, LinkedIn the Social Medium, Zoom Info, Convention Lead sources are selected.</errorMessage>
+</ValidationRule>

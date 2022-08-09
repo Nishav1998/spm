@@ -1,0 +1,33 @@
+<!-- wireGetRecordDynamicContact.html -->
+<template>
+    <lightning-card title="My Wealth-X Record" icon-name="standard:contact">
+        <template if:true={WealthXList}>
+            <template for:each={WealthXList} for:item="WealthXRecord">
+                <div key={WealthXRecord.Id}>
+                    &emsp;&emsp;&emsp;&ensp;
+                    Wealth-X Record Name : {WealthXRecord.WXIntegration__FullName__c}<br>
+                    &emsp;&emsp;&emsp;&ensp;
+                    Wealth-X Record Id : {WealthXRecord.WXIntegration__dossierid__c}<br>
+                </div>
+            </template><br>
+            <lightning-button label="Update Contact" variant="brand" onclick={updateContact}></lightning-button>
+            <!--<div class="slds-m-around_medium">
+                <p>{FullName}</p>
+                <p>{title}</p>
+                <p><lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
+                <p><lightning-formatted-email value={email}></lightning-formatted-email></p>
+            </div>-->
+        </template>
+        <template if:false={WealthXList}>
+                
+                <div>&emsp;&emsp;&emsp;&ensp;Contact is not available in Wealth-X
+                </div>
+            <!--<c-error-panel errors= "Contact is not available in Wealth-X"></c-error-panel>-->
+
+            <!--<p> Contact is not available in Wealth-X </p>
+            <div class="slds-var-m-around_medium">
+                <p><b></b> Contact is not available in Wealth-X </p>
+            </div>-->
+        </template>
+    </lightning-card>
+</template>

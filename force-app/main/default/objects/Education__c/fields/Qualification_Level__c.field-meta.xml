@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualification_Level__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select what Level of Qualification it is. Pick one from the list.</inlineHelpText>
+    <label>Qualification Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Associate degree</fullName>
+                <default>false</default>
+                <label>Associate degree</label>
+            </value>
+            <value>
+                <fullName>Bachelor&apos;s degree</fullName>
+                <default>false</default>
+                <label>Bachelor&apos;s degree</label>
+            </value>
+            <value>
+                <fullName>Master&apos;s degree</fullName>
+                <default>false</default>
+                <label>Master&apos;s degree</label>
+            </value>
+            <value>
+                <fullName>Doctoral degree</fullName>
+                <default>false</default>
+                <label>Doctoral degree</label>
+            </value>
+            <value>
+                <fullName>Professional degree</fullName>
+                <default>false</default>
+                <label>Professional degree</label>
+            </value>
+            <value>
+                <fullName>Non-degree certification</fullName>
+                <default>false</default>
+                <label>Non-degree certification</label>
+            </value>
+            <value>
+                <fullName>Bachelor&apos;&apos;s degree</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bachelor&apos;&apos;s degree</label>
+            </value>
+            <value>
+                <fullName>Master&apos;&apos;s degree</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Master&apos;&apos;s degree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

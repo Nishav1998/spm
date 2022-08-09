@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Fee Structure for this record. Select via Lookup or Create New.</inlineHelpText>
+    <label>Fee Structure</label>
+    <referenceTo>Fee__c</referenceTo>
+    <relationshipLabel>Investment Records</relationshipLabel>
+    <relationshipName>Investment_Records</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

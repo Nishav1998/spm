@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Var__c</fullName>
+    <description>Using this field for Tech purpose</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(FeeS__r.Fe__r.Ty__c,&apos;V&apos;),IF(ISPICKVAL( FeeS__r.FTy__c,&apos;ManagementFee&apos;),IF(ISPICKVAL( FeeS__r.Dur__c ,&apos;Monthly&apos;),(ICA__c +PVC__c),IF(ISPICKVAL(FeeS__r.Dur__c,&apos;Quarterly&apos;),(ICA__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/3)),IF(ISPICKVAL(FeeS__r.Dur__c ,&apos;SemiAnually&apos;),(ICA__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/6)),IF(ISPICKVAL(FeeS__r.Dur__c ,&apos;Yearly&apos;),(ICA__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/12)),0)))),IF(ISPICKVAL(FeeS__r.FTy__c,&apos;ProfitShare&apos;),IF( ISPICKVAL(FeeS__r.Dur__c,&apos;Monthly&apos;),(PAC__c+PVC__c),IF(ISPICKVAL(FeeS__r.Dur__c,&apos;Quarterly&apos;),(PAC__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/3)),IF(ISPICKVAL(FeeS__r.Dur__c ,&apos;SemiAnually&apos;),(PAC__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/6)),IF(ISPICKVAL( FeeS__r.Dur__c,&apos;Yearly&apos;),(PAC__c+(PVC__c)*(VALUE(FeeS__r.Fe__r.Tnr__c)/12)),0 )))),0)),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is a Formula field that will show the Fee for the Variable Type</inlineHelpText>
+    <label>Fee(Var)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

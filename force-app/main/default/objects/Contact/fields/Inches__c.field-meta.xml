@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inches__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the contact&apos;s height in inches, example if the height is 6 feel 2 inches, enter 2 in this field</inlineHelpText>
+    <label>+ Height (In Inches)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

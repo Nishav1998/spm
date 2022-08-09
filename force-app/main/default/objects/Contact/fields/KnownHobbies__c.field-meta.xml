@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KnownHobbies__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the contact&apos;s hobbies from the list. More than one value can be selected.</inlineHelpText>
+    <label>Known Hobbies</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Car racing</fullName>
+                <default>false</default>
+                <label>Car racing</label>
+            </value>
+            <value>
+                <fullName>Collecting Antiques</fullName>
+                <default>false</default>
+                <label>Collecting Antiques</label>
+            </value>
+            <value>
+                <fullName>Collecting Art</fullName>
+                <default>false</default>
+                <label>Collecting Art</label>
+            </value>
+            <value>
+                <fullName>Collecting Vintage Cars</fullName>
+                <default>false</default>
+                <label>Collecting Vintage Cars</label>
+            </value>
+            <value>
+                <fullName>Flying</fullName>
+                <default>false</default>
+                <label>Flying</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>High-Stakes Poker</fullName>
+                <default>false</default>
+                <label>High-Stakes Poker</label>
+            </value>
+            <value>
+                <fullName>Owning a vineyard</fullName>
+                <default>false</default>
+                <label>Owning a vineyard</label>
+            </value>
+            <value>
+                <fullName>Owning exotic pets</fullName>
+                <default>false</default>
+                <label>Owning exotic pets</label>
+            </value>
+            <value>
+                <fullName>Owning horses</fullName>
+                <default>false</default>
+                <label>Owning horses</label>
+            </value>
+            <value>
+                <fullName>Philanthropy</fullName>
+                <default>false</default>
+                <label>Philanthropy</label>
+            </value>
+            <value>
+                <fullName>Politics</fullName>
+                <default>false</default>
+                <label>Politics</label>
+            </value>
+            <value>
+                <fullName>Polo</fullName>
+                <default>false</default>
+                <label>Polo</label>
+            </value>
+            <value>
+                <fullName>Reading</fullName>
+                <default>false</default>
+                <label>Reading</label>
+            </value>
+            <value>
+                <fullName>Sailing</fullName>
+                <default>false</default>
+                <label>Sailing</label>
+            </value>
+            <value>
+                <fullName>Skiing</fullName>
+                <default>false</default>
+                <label>Skiing</label>
+            </value>
+            <value>
+                <fullName>Yachting</fullName>
+                <default>false</default>
+                <label>Yachting</label>
+            </value>
+            <value>
+                <fullName>Tennis</fullName>
+                <default>false</default>
+                <label>Tennis</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+                <label>Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>Crypto* (specify in notes)</fullName>
+                <default>false</default>
+                <label>Crypto* (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Professional sports - NFL (specify in notes)</fullName>
+                <default>false</default>
+                <label>Professional sports - NFL (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Professional sports - NHL (specify in notes)</fullName>
+                <default>false</default>
+                <label>Professional sports - NHL (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Professional sports - NBA (specify in notes)</fullName>
+                <default>false</default>
+                <label>Professional sports - NBA (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Professional sports - Soccer (specify in notes)</fullName>
+                <default>false</default>
+                <label>Professional sports - Soccer (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Professional sports - Other (specify in notes)</fullName>
+                <default>false</default>
+                <label>Professional sports - Other (specify in notes)</label>
+            </value>
+            <value>
+                <fullName>Public speaking</fullName>
+                <default>false</default>
+                <label>Public speaking</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+            <value>
+                <fullName>High stakes gambling</fullName>
+                <default>false</default>
+                <label>High stakes gambling</label>
+            </value>
+            <value>
+                <fullName>Art - painting / drawing / other</fullName>
+                <default>false</default>
+                <label>Art - painting / drawing / other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

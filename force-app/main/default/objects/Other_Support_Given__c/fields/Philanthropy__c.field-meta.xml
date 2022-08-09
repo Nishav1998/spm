@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Philanthropy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Philanthropy associated with this record, or create a new one if needed.</inlineHelpText>
+    <label>Philanthropy</label>
+    <referenceTo>Philanthropies__c</referenceTo>
+    <relationshipLabel>Other Support Given</relationshipLabel>
+    <relationshipName>Other_Support_Given</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

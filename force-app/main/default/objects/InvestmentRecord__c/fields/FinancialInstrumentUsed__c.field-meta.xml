@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinancialInstrumentUsed__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Financial Instrument Used. Select one from the Picklist</inlineHelpText>
+    <label>Financial Instrument Used</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Convertible Note</fullName>
+                <default>false</default>
+                <label>Convertible Note</label>
+            </value>
+            <value>
+                <fullName>Stock Purchase</fullName>
+                <default>false</default>
+                <label>Stock Purchase</label>
+            </value>
+            <value>
+                <fullName>Debt Instrument</fullName>
+                <default>false</default>
+                <label>Debt Instrument</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

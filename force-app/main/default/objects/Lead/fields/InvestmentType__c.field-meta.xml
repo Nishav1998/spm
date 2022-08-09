@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvestmentType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Investment Type from the Picklist</inlineHelpText>
+    <label>Investment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public Market</fullName>
+                <default>false</default>
+                <label>Public Market</label>
+            </value>
+            <value>
+                <fullName>Venture Capital</fullName>
+                <default>false</default>
+                <label>Venture Capital</label>
+            </value>
+            <value>
+                <fullName>Private Equity</fullName>
+                <default>false</default>
+                <label>Private Equity</label>
+            </value>
+            <value>
+                <fullName>Crypto Currency</fullName>
+                <default>false</default>
+                <label>Crypto Currency</label>
+            </value>
+            <value>
+                <fullName>Retail Investor</fullName>
+                <default>false</default>
+                <label>Retail Investor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Public Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Venture Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Private Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Crypto Currency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Retail Investor</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

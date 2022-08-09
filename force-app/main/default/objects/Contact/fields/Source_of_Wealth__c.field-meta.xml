@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_of_Wealth__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Source of a contact wealth</inlineHelpText>
+    <label>Source of Wealth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Real estate</fullName>
+                <default>false</default>
+                <label>Real estate</label>
+            </value>
+            <value>
+                <fullName>Crypto</fullName>
+                <default>false</default>
+                <label>Crypto</label>
+            </value>
+            <value>
+                <fullName>Inherited</fullName>
+                <default>false</default>
+                <label>Inherited</label>
+            </value>
+            <value>
+                <fullName>Finance-Investments</fullName>
+                <default>false</default>
+                <label>Finance-Investments</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Natural Resources</fullName>
+                <default>false</default>
+                <label>Natural Resources</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <label>Hospitality</label>
+            </value>
+            <value>
+                <fullName>Founder-Other</fullName>
+                <default>false</default>
+                <label>Founder-Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmploymentHistory__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Search via lookup about the details of employment history of this Contact. Create a new employment history if needed.</inlineHelpText>
+    <label>Employment History</label>
+    <referenceTo>EmploymentHistory__c</referenceTo>
+    <relationshipLabel>Positions Held</relationshipLabel>
+    <relationshipName>PositionHeld</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

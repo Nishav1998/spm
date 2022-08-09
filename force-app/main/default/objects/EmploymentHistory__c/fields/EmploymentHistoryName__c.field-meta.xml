@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmploymentHistoryName__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please use this format while filling this field &quot;Company - Title(s)&quot; Example: Steelperlot - Manager</inlineHelpText>
+    <label>Employment History Name</label>
+    <length>100</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

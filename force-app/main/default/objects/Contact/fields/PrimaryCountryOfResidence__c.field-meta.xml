@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryCountryOfResidence__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The country where the contact is currently residing permanently</inlineHelpText>
+    <label>Primary Country Of Residence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Country</valueSetName>
+    </valueSet>
+</CustomField>

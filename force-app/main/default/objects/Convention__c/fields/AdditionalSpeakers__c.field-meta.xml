@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalSpeakers__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please mention the name if it is not existing as a contact in the system</inlineHelpText>
+    <label>Additional Speaker&apos;s</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

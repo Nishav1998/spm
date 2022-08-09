@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Code__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the country code where the phone is registered.</inlineHelpText>
+    <label>Country Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>+1</fullName>
+                <default>false</default>
+                <label>+1 (US, Canada)</label>
+            </value>
+            <value>
+                <fullName>+30</fullName>
+                <default>false</default>
+                <label>+30 (Greece)</label>
+            </value>
+            <value>
+                <fullName>+33</fullName>
+                <default>false</default>
+                <label>+33 (France)</label>
+            </value>
+            <value>
+                <fullName>+39</fullName>
+                <default>false</default>
+                <label>+39 (Italy)</label>
+            </value>
+            <value>
+                <fullName>+41</fullName>
+                <default>false</default>
+                <label>+41 (Switzerland)</label>
+            </value>
+            <value>
+                <fullName>+44</fullName>
+                <default>false</default>
+                <label>+44 (United Kingdom)</label>
+            </value>
+            <value>
+                <fullName>+61</fullName>
+                <default>false</default>
+                <label>+61 (Australia)</label>
+            </value>
+            <value>
+                <fullName>+62</fullName>
+                <default>false</default>
+                <label>+62 (Indonesia)</label>
+            </value>
+            <value>
+                <fullName>+65</fullName>
+                <default>false</default>
+                <label>+65 (Singapore)</label>
+            </value>
+            <value>
+                <fullName>+81</fullName>
+                <default>false</default>
+                <label>+81 (Japan)</label>
+            </value>
+            <value>
+                <fullName>+86</fullName>
+                <default>false</default>
+                <label>+86 (China)</label>
+            </value>
+            <value>
+                <fullName>+91</fullName>
+                <default>false</default>
+                <label>+91 (India)</label>
+            </value>
+            <value>
+                <fullName>+353</fullName>
+                <default>false</default>
+                <label>+353 (Ireland)</label>
+            </value>
+            <value>
+                <fullName>+971</fullName>
+                <default>false</default>
+                <label>+971 (United Arab Emirates)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

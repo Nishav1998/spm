@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>Please describe the detail about In Person Meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the Lead source - Research is selected, describe the type of research that was done.</inlineHelpText>
+    <label>Description</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

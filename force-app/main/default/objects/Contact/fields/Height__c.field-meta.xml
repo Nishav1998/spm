@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Height__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(HeightInFeet__c) &amp; &quot;&apos; &quot; &amp; TEXT(Inches__c) &amp; &apos;&quot;&apos;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Thyis is a Formula field that will be calculated based on the values in the above fields.</inlineHelpText>
+    <label>Height</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

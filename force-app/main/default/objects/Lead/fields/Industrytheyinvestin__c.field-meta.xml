@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industrytheyinvestin__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a Groopit Form field and should be automatically updated via the form.</inlineHelpText>
+    <label>Industry they invest in</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

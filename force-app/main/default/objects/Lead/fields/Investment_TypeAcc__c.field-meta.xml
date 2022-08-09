@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_TypeAcc__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( INCLUDES( InvestmentType__c  , &quot;PublicMarket&quot;), &quot;PublicMarket; &quot;,&quot;&quot;) 
+&amp; 
+IF( INCLUDES(InvestmentType__c  , &quot;VentureCapital&quot;), &quot;VentureCapital; &quot;, &quot;&quot;) 
+&amp; 
+IF( INCLUDES(InvestmentType__c  , &quot;PrivateEquity&quot;), &quot;PrivateEquity; &quot;, &quot;&quot;) 
+&amp; 
+IF( INCLUDES(InvestmentType__c   , &quot;CryptoCurrency&quot;), &quot;CryptoCurrency; &quot;, &quot;&quot;) 
+&amp; 
+IF( INCLUDES(InvestmentType__c   , &quot;RetailInvestor&quot;), &quot;RetailInvestor; &quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Investment Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

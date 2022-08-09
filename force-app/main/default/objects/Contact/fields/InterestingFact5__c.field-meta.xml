@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InterestingFact5__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter another interesting Fact # 6 apart from the Main interesting Fact about this Contact.</inlineHelpText>
+    <label>Interesting Fact 5</label>
+    <length>500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

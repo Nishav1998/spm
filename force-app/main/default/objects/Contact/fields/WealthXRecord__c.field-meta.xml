@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WealthXRecord__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(WXIntegration__Wealth_X_Dossier_Id__c),&apos;&apos;,HYPERLINK(&quot;https://steelperlot--preprod--wxintegration.visualforce.com/apex/Wealth_X_SearchedDossier?dossier=&quot; &amp; TEXT(WXIntegration__Wealth_X_Dossier_Id__c), &quot;Wealth-X Record Detail Page&quot;, &quot;_blank&quot;))</formula>
+    <label>Associated WealthX Dossier</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

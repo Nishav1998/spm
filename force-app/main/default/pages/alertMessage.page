@@ -1,0 +1,6 @@
+<apex:page standardController="Investment_Fee__c">
+  <script>
+        if({!Investment_Fee__c.PVThAmt__c})
+            alert('Present Value has gone above the Threshold Amount');
+    </script>
+</apex:page>

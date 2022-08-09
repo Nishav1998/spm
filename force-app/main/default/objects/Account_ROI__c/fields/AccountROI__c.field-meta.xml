@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountROI__c</fullName>
+    <externalId>false</externalId>
+    <formula>(AccountProfit__c /  Invested_Fund__r.InvestmentName__r.IAmtAftFee__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is Formula field that gives the %age of Account ROI</inlineHelpText>
+    <label>Account ROI %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

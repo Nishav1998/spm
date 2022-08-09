@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEOName__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Full Name of the contact iF he is the CEO of a Company. oR Full Name of the CEO of this Company where the Lead works.</inlineHelpText>
+    <label>CEO Full Name [Text]</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Panel__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the panel. This field has a Master detail relationship and should update automatically.</inlineHelpText>
+    <label>Panel</label>
+    <referenceTo>Panel__c</referenceTo>
+    <relationshipLabel>Associated Panels</relationshipLabel>
+    <relationshipName>Associated_Panels</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

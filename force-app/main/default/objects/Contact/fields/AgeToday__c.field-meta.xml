@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgeToday__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(YEAR(Birthdate)=YEAR(TODAY()), &quot;1 Years&quot;,
+IF(VALUE(YearOfBirth__c)=YEAR(TODAY()), &quot;1 Years&quot;,
+IF(MONTH(Birthdate)&gt;= MONTH(TODAY()),TEXT(YEAR(TODAY()) - YEAR(Birthdate) - 1) + &quot; Years&quot;,
+IF(MONTH(Birthdate)&lt; MONTH(TODAY()), TEXT(YEAR(TODAY()) - YEAR(Birthdate)) + &quot; Years&quot;,
+IF(AND((VALUE(Birthday_Month__c) &lt; MONTH(TODAY())),(VALUE(Birthday_Date__c) &lt; DAY(TODAY()))), TEXT(YEAR(TODAY()) - VALUE(YearOfBirth__c)) + &quot; Years&quot;, TEXT(YEAR(TODAY()) - VALUE(YearOfBirth__c) - 1) + &quot; Years&quot;)))))</formula>
+    <inlineHelpText>Account holder&apos;s age today in years, months and days. This will be calculated automatically via a formula based on the Contact&apos;s Date of Birth</inlineHelpText>
+    <label>Age Today</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

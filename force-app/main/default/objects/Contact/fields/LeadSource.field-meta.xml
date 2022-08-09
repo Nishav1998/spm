@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSource</fullName>
+    <inlineHelpText>Detail of the source where this Lead has come to us from. If &quot;Convention&quot; is selected please key in the details in the convention related list</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+</CustomField>

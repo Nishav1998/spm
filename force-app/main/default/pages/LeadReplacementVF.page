@@ -1,0 +1,5 @@
+<apex:page standardController="Lead" >
+ <script>
+      window.top.location.href = '/lightning/o/Lead/new?nooverride=1&defaultFieldValues=LastName=.';
+  </script>
+</apex:page>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_3_Video__c</fullName>
+    <externalId>false</externalId>
+    <label>Web 3 Video</label>
+    <referenceTo>Web_3_Video__c</referenceTo>
+    <relationshipLabel>Associated Contact</relationshipLabel>
+    <relationshipName>Associated_ContactWeb</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

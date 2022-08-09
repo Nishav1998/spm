@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dictionary_ListView</fullName>
+    <columns>NAME</columns>
+    <columns>Comments__c</columns>
+    <columns>Description__c</columns>
+    <columns>Description2__c</columns>
+    <columns>ScheduleDate__c</columns>
+    <columns>Source1__c</columns>
+    <columns>Source2__c</columns>
+    <columns>Synonyms__c</columns>
+    <columns>WikiLink__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Nisha VK</value>
+    </filters>
+    <label>Dictionary ListView</label>
+</ListView>

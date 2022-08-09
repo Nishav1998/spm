@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LinkedInProfileLink__c</fullName>
+    <description>LinkedIn profile URL</description>
+    <externalId>false</externalId>
+    <inlineHelpText>URL of the LinkedIn Profile of the Lead</inlineHelpText>
+    <label>LinkedIn Profile Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessCardPhoto__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is a mapped field with Lead and will be automatically filled during Lead conversion process if the data is filled there. Fields values will be updated based on the mapped objects (Lead-Account) (Lead-Contact)</inlineHelpText>
+    <label>Business Card Photo</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

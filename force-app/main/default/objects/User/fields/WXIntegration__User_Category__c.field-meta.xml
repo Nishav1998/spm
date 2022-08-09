@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WXIntegration__User_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>DEPRECATED FOR THIS VERSION</description>
+    <externalId>false</externalId>
+    <label>Wealth-X User Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>true</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Completions</fullName>
+                <default>false</default>
+                <label>Completions</label>
+            </value>
+            <value>
+                <fullName>Flight Operations</fullName>
+                <default>false</default>
+                <label>Flight Operations</label>
+            </value>
+            <value>
+                <fullName>others</fullName>
+                <default>false</default>
+                <label>others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

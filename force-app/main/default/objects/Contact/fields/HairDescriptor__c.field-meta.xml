@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HairDescriptor__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the texture of the Contact&apos;s Hair..select all that apply</inlineHelpText>
+    <label>Hair Descriptor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Straight</fullName>
+                <default>false</default>
+                <label>Straight</label>
+            </value>
+            <value>
+                <fullName>Wavy</fullName>
+                <default>false</default>
+                <label>Wavy</label>
+            </value>
+            <value>
+                <fullName>Curly</fullName>
+                <default>false</default>
+                <label>Curly</label>
+            </value>
+            <value>
+                <fullName>Coily</fullName>
+                <default>false</default>
+                <label>Coily</label>
+            </value>
+            <value>
+                <fullName>Thin</fullName>
+                <default>false</default>
+                <label>Thin</label>
+            </value>
+            <value>
+                <fullName>Thick</fullName>
+                <default>false</default>
+                <label>Thick</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projectventurelink__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please key in the URL of the project or venture</inlineHelpText>
+    <label>Project / venture link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

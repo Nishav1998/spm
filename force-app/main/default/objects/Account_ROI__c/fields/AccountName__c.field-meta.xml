@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountName__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a Lookup field and the Account Name will automatically appear from Account Object</inlineHelpText>
+    <label>Account Name</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>AccountsROI</relationshipLabel>
+    <relationshipName>AccountsROI</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConventionYear__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Year of the Convention when this Lead was found</inlineHelpText>
+    <label>Convention Year</label>
+    <length>4</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

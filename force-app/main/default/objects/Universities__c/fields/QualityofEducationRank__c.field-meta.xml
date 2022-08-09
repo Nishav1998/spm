@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QualityofEducationRank__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If the &apos;Quality of Education Rank&apos; is known, enter the same here.</inlineHelpText>
+    <label>Quality of Education Rank</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Advisor</fullName>
+        <default>false</default>
+        <label>Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Advisory Board Member</fullName>
+        <default>false</default>
+        <label>Advisory Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Board Member</fullName>
+        <default>false</default>
+        <label>Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Committee Member</fullName>
+        <default>false</default>
+        <label>Committee Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Council Member</fullName>
+        <default>false</default>
+        <label>Council Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Director</fullName>
+        <default>false</default>
+        <label>Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Fellow</fullName>
+        <default>false</default>
+        <label>Fellow</label>
+    </customValue>
+    <customValue>
+        <fullName>Governor</fullName>
+        <default>false</default>
+        <label>Governor</label>
+    </customValue>
+    <customValue>
+        <fullName>Honorary Director</fullName>
+        <default>false</default>
+        <label>Honorary Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </customValue>
+    <customValue>
+        <fullName>President</fullName>
+        <default>false</default>
+        <label>President</label>
+    </customValue>
+    <customValue>
+        <fullName>Trustee</fullName>
+        <default>false</default>
+        <label>Trustee</label>
+    </customValue>
+    <masterLabel>Positions</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_fields_when_Lead_is_Founder</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL( Type__c, &quot;Founder&quot;),
+ISPICKVAL(SuccessfulExits__c,&quot; &quot;),
+ISPICKVAL(ManagedPeopleBefore__c, &quot; &quot;),
+ISBLANK(&quot;Role__c&quot;)
+)</errorConditionFormula>
+    <errorMessage>&apos;Successful Exit&apos; , &apos;Managed People Before&apos; and &apos;Role&apos; fields are mandatory when Lead type is Founder</errorMessage>
+</ValidationRule>

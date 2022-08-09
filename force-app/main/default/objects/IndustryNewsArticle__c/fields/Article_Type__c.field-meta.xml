@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Article_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Article Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Altcoin</fullName>
+                <default>false</default>
+                <label>Altcoin</label>
+            </value>
+            <value>
+                <fullName>Bitcoin</fullName>
+                <default>false</default>
+                <label>Bitcoin</label>
+            </value>
+            <value>
+                <fullName>Bitcoin Cash</fullName>
+                <default>false</default>
+                <label>Bitcoin Cash</label>
+            </value>
+            <value>
+                <fullName>Block</fullName>
+                <default>false</default>
+                <label>Block</label>
+            </value>
+            <value>
+                <fullName>Blockchain</fullName>
+                <default>false</default>
+                <label>Blockchain</label>
+            </value>
+            <value>
+                <fullName>Coin</fullName>
+                <default>false</default>
+                <label>Coin</label>
+            </value>
+            <value>
+                <fullName>Coinbase</fullName>
+                <default>false</default>
+                <label>Coinbase</label>
+            </value>
+            <value>
+                <fullName>Cold Wallet/Cold Storage</fullName>
+                <default>false</default>
+                <label>Cold Wallet/Cold Storage</label>
+            </value>
+            <value>
+                <fullName>Cryptocurrency</fullName>
+                <default>false</default>
+                <label>Cryptocurrency</label>
+            </value>
+            <value>
+                <fullName>Decentralization</fullName>
+                <default>false</default>
+                <label>Decentralization</label>
+            </value>
+            <value>
+                <fullName>Decentralized Finance (DeFi)</fullName>
+                <default>false</default>
+                <label>Decentralized Finance (DeFi)</label>
+            </value>
+            <value>
+                <fullName>Decentralized Applications (DApps)</fullName>
+                <default>false</default>
+                <label>Decentralized Applications (DApps)</label>
+            </value>
+            <value>
+                <fullName>Digital Gold</fullName>
+                <default>false</default>
+                <label>Digital Gold</label>
+            </value>
+            <value>
+                <fullName>Ethereum</fullName>
+                <default>false</default>
+                <label>Ethereum</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <label>Exchange</label>
+            </value>
+            <value>
+                <fullName>Fork</fullName>
+                <default>false</default>
+                <label>Fork</label>
+            </value>
+            <value>
+                <fullName>Genesis Block</fullName>
+                <default>false</default>
+                <label>Genesis Block</label>
+            </value>
+            <value>
+                <fullName>HODL</fullName>
+                <default>false</default>
+                <label>HODL</label>
+            </value>
+            <value>
+                <fullName>Halving</fullName>
+                <default>false</default>
+                <label>Halving</label>
+            </value>
+            <value>
+                <fullName>Hash</fullName>
+                <default>false</default>
+                <label>Hash</label>
+            </value>
+            <value>
+                <fullName>Hot Wallet</fullName>
+                <default>false</default>
+                <label>Hot Wallet</label>
+            </value>
+            <value>
+                <fullName>Initial Coin Offering (ICO)</fullName>
+                <default>false</default>
+                <label>Initial Coin Offering (ICO)</label>
+            </value>
+            <value>
+                <fullName>Market Capitalization</fullName>
+                <default>false</default>
+                <label>Market Capitalization</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Node</fullName>
+                <default>false</default>
+                <label>Node</label>
+            </value>
+            <value>
+                <fullName>Non-fungible Tokens (NFTs)</fullName>
+                <default>false</default>
+                <label>Non-fungible Tokens (NFTs)</label>
+            </value>
+            <value>
+                <fullName>Peer-to-peer</fullName>
+                <default>false</default>
+                <label>Peer-to-peer</label>
+            </value>
+            <value>
+                <fullName>Public Key</fullName>
+                <default>false</default>
+                <label>Public Key</label>
+            </value>
+            <value>
+                <fullName>Private Key</fullName>
+                <default>false</default>
+                <label>Private Key</label>
+            </value>
+            <value>
+                <fullName>Satoshi Nakomoto</fullName>
+                <default>false</default>
+                <label>Satoshi Nakomoto</label>
+            </value>
+            <value>
+                <fullName>Smart Contract</fullName>
+                <default>false</default>
+                <label>Smart Contract</label>
+            </value>
+            <value>
+                <fullName>Stablecoin or Digital Fiat</fullName>
+                <default>false</default>
+                <label>Stablecoin or Digital Fiat</label>
+            </value>
+            <value>
+                <fullName>Token</fullName>
+                <default>false</default>
+                <label>Token</label>
+            </value>
+            <value>
+                <fullName>Vitalik Buterin</fullName>
+                <default>false</default>
+                <label>Vitalik Buterin</label>
+            </value>
+            <value>
+                <fullName>Wallet</fullName>
+                <default>false</default>
+                <label>Wallet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a dependent field and options will be available as per the Type of Lead</inlineHelpText>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Venture capital</fullName>
+                <default>false</default>
+                <label>Venture capital</label>
+            </value>
+            <value>
+                <fullName>Private equity</fullName>
+                <default>false</default>
+                <label>Private equity</label>
+            </value>
+            <value>
+                <fullName>Fund of funds</fullName>
+                <default>false</default>
+                <label>Fund of funds</label>
+            </value>
+            <value>
+                <fullName>Hedge Funds</fullName>
+                <default>false</default>
+                <label>Hedge Funds</label>
+            </value>
+            <value>
+                <fullName>Tech</fullName>
+                <default>false</default>
+                <label>Tech</label>
+            </value>
+            <value>
+                <fullName>AI</fullName>
+                <default>false</default>
+                <label>AI</label>
+            </value>
+            <value>
+                <fullName>Blockchain</fullName>
+                <default>false</default>
+                <label>Blockchain</label>
+            </value>
+            <value>
+                <fullName>App</fullName>
+                <default>false</default>
+                <label>App</label>
+            </value>
+            <value>
+                <fullName>System integrator</fullName>
+                <default>false</default>
+                <label>System integrator</label>
+            </value>
+            <value>
+                <fullName>News papers</fullName>
+                <default>false</default>
+                <label>News papers</label>
+            </value>
+            <value>
+                <fullName>Magazines</fullName>
+                <default>false</default>
+                <label>Magazines</label>
+            </value>
+            <value>
+                <fullName>Blogs</fullName>
+                <default>false</default>
+                <label>Blogs</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Neighborhood</fullName>
+                <default>false</default>
+                <label>Neighborhood</label>
+            </value>
+            <value>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+                <label>Specialty</label>
+            </value>
+            <value>
+                <fullName>Potential</fullName>
+                <default>false</default>
+                <label>Potential</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Technical</fullName>
+                <default>false</default>
+                <label>Technical</label>
+            </value>
+            <value>
+                <fullName>Non-Technical</fullName>
+                <default>false</default>
+                <label>Non-Technical</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>News Publication</controllingFieldValue>
+            <valueName>News papers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>News Publication</controllingFieldValue>
+            <valueName>Magazines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>News Publication</controllingFieldValue>
+            <valueName>Blogs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blockchain Club</controllingFieldValue>
+            <valueName>Student</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blockchain Club</controllingFieldValue>
+            <valueName>Neighborhood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blockchain Club</controllingFieldValue>
+            <valueName>Specialty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee (Contact Persona)</controllingFieldValue>
+            <valueName>Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employee (Contact Persona)</controllingFieldValue>
+            <valueName>Non-Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Potential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Active</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Co</controllingFieldValue>
+            <valueName>Venture capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Co</controllingFieldValue>
+            <valueName>Private equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Co</controllingFieldValue>
+            <valueName>Fund of funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investment Co</controllingFieldValue>
+            <valueName>Hedge Funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Startup</controllingFieldValue>
+            <valueName>Tech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Startup</controllingFieldValue>
+            <valueName>AI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Startup</controllingFieldValue>
+            <valueName>Blockchain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Provider</controllingFieldValue>
+            <valueName>System integrator</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
